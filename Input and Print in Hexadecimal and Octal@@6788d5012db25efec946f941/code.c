@@ -2,13 +2,13 @@
 #include<math.h>
 
 int main() {
-    int num, oct, i=0, n;
+    int num, oct=0, i=0, n;
     scanf("%d",&num);
     printf("Hexadecimal: %X\n", num);
     
     while(num != 0){
         n = num % 8;
-        oct += n * pow(10,i);
+        oct += n * (int)pow(10,i);
         num /= 8;
         i++;
     }
