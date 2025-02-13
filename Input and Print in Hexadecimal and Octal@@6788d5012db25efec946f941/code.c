@@ -8,7 +8,7 @@ int main() {
     
     while(num != 0){
         n = num % 8;
-        oct += num * pow(10,i);
+        oct += n * pow(10,i);
         num /= 8;
         i++;
     }
