@@ -2,24 +2,20 @@
 int main()
 {
     char ch;
-
     scanf("%c",&ch);
-
-    ch = toupper(ch);
-
     switch (ch)
     {
-    case 'A':
+    case 'a':
         printf("Vowel");
         break;
-    case 'E' :
+    case 'e' :
         printf("Vowel");
         break;
-    case 'I' :
+    case 'i' :
         printf("Vowel");
-    case 'O' :
+    case 'o' :
         printf("Vowel");
-    case 'U' :
+    case 'u' :
         printf("Vowel");
     default:
         printf("Consonant");
