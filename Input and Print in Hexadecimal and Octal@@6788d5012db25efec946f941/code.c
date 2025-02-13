@@ -1,17 +1,18 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
 
 int main() {
-    int num, oct=0, i=0, n;
-    scanf("%d",&num);
-    printf("Hexadecimal: %X\n", num);
+    int num, oct = 0, i = 1, n;
+
+    scanf("%d", &num);
+    printf("Hexadecimal: %X", num);
     
-    while(num != 0){
+    while (num != 0) {
         n = num % 8;
-        oct += n * (int)pow(10,i);
+        oct += n * i;  
         num /= 8;
-        i++;
+        i *= 10;  
     }
+
     printf("Octal: %d", oct);
     return 0;
 }
