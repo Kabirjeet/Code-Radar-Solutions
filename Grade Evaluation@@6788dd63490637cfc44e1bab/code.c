@@ -9,10 +9,12 @@ int main(){
         printf("Good");
     } else if(ch == 'C'){
         printf("Average");
-    } else if(ch == 'A'){
+    } else if(ch == 'D'){
         printf("Below Average");
-    } else{
+    } else if(ch == 'F'){
         printf("Fail");
+    } else{
+        printf("Invalid grade");
     }
     return 0;
 }
