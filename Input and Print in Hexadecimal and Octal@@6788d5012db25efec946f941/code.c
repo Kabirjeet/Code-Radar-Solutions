@@ -4,7 +4,7 @@ int main() {
     int num, oct = 0, i = 1, n;
 
     scanf("%d", &num);
-    printf("Hexadecimal: %X", num);
+    printf("Hexadecimal: %X\n", num);
     
     while (num != 0) {
         n = num % 8;
