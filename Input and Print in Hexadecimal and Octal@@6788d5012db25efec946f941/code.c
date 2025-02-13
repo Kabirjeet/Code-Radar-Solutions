@@ -12,6 +12,6 @@ int main() {
         num /= 8;
         i++;
     }
-    printf("Octal: %d", oct)
+    printf("Octal: %d", oct);
     return 0;
 }
