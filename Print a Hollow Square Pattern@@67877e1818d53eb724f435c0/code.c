@@ -9,6 +9,9 @@ int main(){
                 for(int i=0; i<n; i++){
                     printf("*");
                 }
+                else if(j==n-1 || j==n-1){
+                    printf("*");
+                }
             } 
         }
         printf("\n");
