@@ -9,7 +9,11 @@ int main(){
                 for(int i=0; i<n; i++){
                     printf("*");
                 }
-            } 
+            } else if((j==0 && j==n)){
+                printf("*");
+            } else{
+                printf(" ");
+            }
         }
         printf("\n");
     }   
