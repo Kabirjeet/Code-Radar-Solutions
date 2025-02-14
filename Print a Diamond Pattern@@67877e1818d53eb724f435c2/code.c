@@ -12,6 +12,11 @@ int main(){
         }
         printf("\n");
     } 
- 
+    
+    for(int i=n-1; i>0;i--){
+        for(int j=n; j>i; j--){
+            printf("|");
+        }
+    }
     return 0;
 }
