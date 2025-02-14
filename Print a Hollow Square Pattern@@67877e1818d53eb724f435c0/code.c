@@ -11,6 +11,8 @@ int main(){
                 }
                 else if(j==n-1 || j==n-1){
                     printf("*");
+                } else{
+                    pass;
                 }
             } 
         }
