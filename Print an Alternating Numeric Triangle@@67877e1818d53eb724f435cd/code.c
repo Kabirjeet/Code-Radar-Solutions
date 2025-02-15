@@ -9,6 +9,7 @@ int main(){
             printf("%d ",cmp);
             if(al==1){
                 cmp=0;
+                al++;
             } else{
                 cmp=1;
             }
