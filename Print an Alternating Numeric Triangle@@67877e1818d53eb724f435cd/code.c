@@ -5,8 +5,13 @@ int main(){
 
     for(int i=0; i<n; i++){
         for(int j=0; j<i+1; j++){
-            int a = 0;
-            printf("%d ",++a);
+            int a = 1;
+            printf("%d ",a);
+            if(a==1){
+                a=0;
+            } else{
+                a=1;
+            }
         }
         printf("\n");
     }   
