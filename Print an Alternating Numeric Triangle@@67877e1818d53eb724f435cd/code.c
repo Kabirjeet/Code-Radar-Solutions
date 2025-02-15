@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
 
     for(int i=0; i<n; i++){
-        int al = 1, cmp=1;
+        int al = 0, cmp=1;
         for(int j=0; j<i+1; j++){
             if(al==1){
                 cmp=0;
