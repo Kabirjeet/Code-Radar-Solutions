@@ -1,13 +1,13 @@
 #include<stdio.h>
-#include<math.h>
+// #include<math.h>
 
-int factorial(int a){
-    int fac=1;
-    for(int i=a; i>0; i++){
-        fact *= i;
-    }
-    return fac;
-}
+// int factorial(int a){
+//     int fac=1;
+//     for(int i=a; i>0; i++){
+//         fact *= i;
+//     }
+//     return fac;
+// }
 int main(){
     int n;
     scanf("%d",&n);
