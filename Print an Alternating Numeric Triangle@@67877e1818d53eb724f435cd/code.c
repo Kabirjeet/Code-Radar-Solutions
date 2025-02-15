@@ -7,6 +7,7 @@ int main(){
         int cmp = (i%2 == 0)? 1: 0;
         for(int j=0; j<i+1; j++){
             printf("%d ",cmp);
+            cmp = 1-cmp;
         }
         printf("\n");
     }   
