@@ -11,7 +11,7 @@ int main(){
             if(al==1){
                 al=0;
             } else{
-                a=1;
+                al=1;
             }
         }
         printf("\n");
