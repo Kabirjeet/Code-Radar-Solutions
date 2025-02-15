@@ -4,13 +4,13 @@ int main(){
     scanf("%d",&n);
 
     for(int i=0; i<n; i++){
-        int al = 1;
+        int al = 1, cmp=1;
         for(int j=0; j<i+1; j++){
-            printf("%d ",al);
+            printf("%d ",cmp);
             if(al==1){
-                al=0;
+                cmp=0;
             } else{
-                al=1;
+                cmp=1;
             }
         }
         printf("\n");
