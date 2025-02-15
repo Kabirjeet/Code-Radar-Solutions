@@ -8,6 +8,7 @@ int main(){
         int al = 65;
         for(int j=0; j<=i; j++){
             printf("%c ",(int)al);
+            al++
         }
         printf("\n");
     }
