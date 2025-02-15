@@ -7,7 +7,6 @@ int main(){
         int al = 1;
         for(int j=0; j<i+1; j++){
             printf("%d ",al);
-            al++;
             if(al==1){
                 al=0;
             } else{
