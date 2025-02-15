@@ -4,14 +4,8 @@ int main(){
     scanf("%d",&n);
 
     for(int i=0; i<n; i++){
-        int al = 0, cmp=1;
+        int cmp = (i%2 == 0)? 1: 0;
         for(int j=0; j<i+1; j++){
-            if(al==1){
-                cmp=0;
-                al++;
-            } else{
-                cmp=1;
-            }
             printf("%d ",cmp);
         }
         printf("\n");
