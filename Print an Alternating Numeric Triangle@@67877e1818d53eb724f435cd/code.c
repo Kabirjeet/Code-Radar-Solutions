@@ -7,6 +7,7 @@ int main(){
         int a = 1;
         for(int j=0; j<i+1; j++){
             printf("%d ",a);
+            a++;
             if(a==1){
                 a=0;
             } else{
