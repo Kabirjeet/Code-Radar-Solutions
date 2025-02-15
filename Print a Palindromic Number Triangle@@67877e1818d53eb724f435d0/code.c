@@ -8,7 +8,11 @@ int main(){
             printf(" ");
         }
         for(int k=0; k<=2*i; k++){
-            printf("%d",k+1);
+            if(k==2*i){
+                printf("%d",1);
+            } else{
+                printf("%d",k+1);
+            }
         }
         printf("\n");
     }   
