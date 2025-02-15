@@ -4,10 +4,9 @@ int main(){
     scanf("%d",&n);
 
     for(int i=0; i<n; i++){
+        int a = 1;
         for(int j=0; j<i+1; j++){
-            int a = 1;
             printf("%d ",a);
-            a++;
             if(a==1){
                 a=0;
             } else{
