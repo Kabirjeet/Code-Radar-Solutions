@@ -6,6 +6,10 @@ int printArray(int ar[], int n){
     }
 }
 
+int bubbleSort(int ar[], int n){
+    printf("1");
+}
+
 int main() {
     int n;
     scanf("%d", &n);
