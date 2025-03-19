@@ -1,9 +1,9 @@
 #include<stdio.h>
-void rotate_array(int ar[], int rot){
-    int diff = sizeof(ar[]) - rot;
+void rotate_array(int ar[], int rot, int sz){
+    int diff = sz - rot;
     int a[rot];
     int aindex = 0;
-    for(int i=diff; i<sizeof(ar[]); i++){
+    for(int i=diff; i<sz; i++){
         a[aindex] = ar[i];  
         aindex++;
     }
@@ -22,6 +22,6 @@ int main(){
     }
     scanf("%d", &rotate);
 
-    rotate_array(arr[], rotate);
+    rotate_array(arr, rotate, size);
     return 0;
 }
