@@ -8,7 +8,7 @@ void rotate_array(int ar[], int rot, int sz){
         aindex++;
     }
 
-    for(int i=0; i<diff; i++){
+    for(int i=0; i<rot; i++){
         printf("%d ",a[i]);
     }
 }
