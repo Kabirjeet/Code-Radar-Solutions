@@ -1,12 +1,11 @@
 #include<stdio.h>
-char sorted(int ar[], int sz){
-    for(int i=0, j=1; i<sz, j<sz; i++,j++){
-        if(ar[i]>ar[j]){
+const char* sorted(int ar[], int sz){
+    for(int i=0; i<sz-1; i++){
+        if(ar[i]>ar[i+1]){
             return "Not Sorted";
-        } else{
-            return "Sorted";
-        }
+        } 
     }
+    return "Sorted";
 }
 int main(){
     int size;
@@ -17,6 +16,6 @@ int main(){
         scanf("%d",&arr[i]);
     }
     
-    printf("%c",sorted(arr, size));
+    printf("%s",sorted(arr, size));
     return 0;
 }
