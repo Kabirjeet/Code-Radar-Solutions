@@ -11,5 +11,5 @@ int isPrime(int a){
         }
         else return 1;
     }
-    return 1;
+    //return 1;
 }
