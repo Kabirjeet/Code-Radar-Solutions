@@ -11,3 +11,9 @@ void selectionSort(int ar[], int size){
         }
     }
 }
+
+void printArray(int ar[], int size){
+    for(int i=0; i<size; i++){
+        printf("%d ", ar[i]);
+    }
+}
