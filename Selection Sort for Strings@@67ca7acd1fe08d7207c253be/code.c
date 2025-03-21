@@ -10,3 +10,8 @@ void selectionSort(char ar[], int size){
     }
 }
 
+void printArray(char ar[], int size){
+    for(int i=0; i<size; i++){
+        printf("%s ", ar[i]);
+    }
+}
