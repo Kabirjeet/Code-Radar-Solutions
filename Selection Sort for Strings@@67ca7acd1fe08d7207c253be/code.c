@@ -1,4 +1,4 @@
-void selectionSort(char ar[][], int size){
+void selectionSort(char ar[], int size){
     for(int i=0; i<size-1; i++){
         for(int j=i+1; j<size; j++){
             if((int)ar[j][0] < (int)ar[i][0]){
