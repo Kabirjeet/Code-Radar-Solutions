@@ -12,7 +12,7 @@ int main() {
     scanf("%d",&rot);
     int rotarr[rot];
     int rotindex = 0;
-    for(int i=(size-rot)-1; i<size; i++){
+    for(int i=(size-rot); i<size; i++){
         rotarr[rotindex] = arr[i];
         rotindex++;
     }
