@@ -6,6 +6,7 @@ int peak(int ar[], int sz){
             return ar[i];
         }
     }
+    retrun -1;
 }
 
 int main(){
