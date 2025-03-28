@@ -9,6 +9,7 @@ int main(){
     }
 
     for(int i=0; i<size-1; i++){
+        count = 0;
         int comp = arr[i];
         count++;
         for(int j=i+1; j<size; j++){
@@ -16,7 +17,7 @@ int main(){
                 count++;
             }
         }
-        printf("%d %d", comp, count);
+        printf("%d %d\n", comp, count);
     }
     return 0;
 }
