@@ -5,8 +5,8 @@ int peak(int ar[], int sz){
         if((ar[i-1] < ar[i]) && (ar[i] > ar[i+1])){
             return ar[i];
         }
+        return -1;
     }
-    retrun -1;
 }
 
 int main(){
