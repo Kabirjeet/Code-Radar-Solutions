@@ -1,15 +1,19 @@
 #include <stdio.h>
 
 int peak(int ar[], int sz) {
-    if (sz == 1) return ar[0];  // Single element case
+    if (sz == 1) return ar[0];
 
-    for (int i = 1; i < sz - 1; i++) { // Ensure `i+1` is within bounds
+    if (ar[0] > ar[1]) return ar[0];
+
+    for (int i = 1; i < sz - 1; i++) {
         if (ar[i - 1] < ar[i] && ar[i] > ar[i + 1]) {
-            return ar[i]; // Return first peak element found
+            return ar[i];  
         }
     }
-    
-    return -1; // If no peak is found
+
+    if (ar[sz - 1] > ar[sz - 2]) return ar[sz - 1];
+
+    return -1; 
 }
 
 int main() {
@@ -21,6 +25,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    printf("%d", peak(arr, size));
+    printf("%d\n", peak(arr, size));
     return 0;
 }
