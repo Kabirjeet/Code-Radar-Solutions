@@ -18,7 +18,7 @@ int main() {
     }
 
     for(int i=0; i<rot; i++){
-        printf("%d ",rot[i]);
+        printf("%d ",rotarr[i]);
     }
     return 0;
 }
