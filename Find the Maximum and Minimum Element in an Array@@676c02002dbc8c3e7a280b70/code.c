@@ -18,8 +18,10 @@ int main(){
         }
     }
 
-    for(int i=0; i<size; i++){
-        printf("%d ", arr[i]);
-    }
+    // for(int i=0; i<size; i++){
+    //     printf("%d ", arr[i]);
+    // }
+
+    printf("%d %d",arr[0], arr[size-1]);
     return 0;
 }
