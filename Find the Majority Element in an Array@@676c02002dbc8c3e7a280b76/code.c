@@ -1,21 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int N;
+    int size;
+    
+    scanf("%d",&size);
 
-    scanf("%d", &N);
+    int arr[size];
 
-    int arr[N];
-
-    if (N <= 0) {
-        return 0;
+    for(int i=0; i<size; i++){
+        scanf("%d",&arr[i]);
     }
 
-    for(int i = 0; i < N; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-    for(int i = 0; i < N; i++) {
+    for(int i=0; i<size; i++){
         printf("%d ");
     }
     return 0;
