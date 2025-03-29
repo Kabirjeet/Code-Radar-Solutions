@@ -23,7 +23,7 @@ int main(){
         }
     }
 
-    int min=1, min1=0, min2=0
+    int min=1, min1=0, min2=0;
     for(int i=0; i<size; i++){
         int sub = arr[i];
 
