@@ -1,12 +1,8 @@
 #include<stdio.h>
 
 int digsum(int num){
-    int sum = 0;
-    while(num != 0){
-        sum += num%10;
-        num /= 10;
-    }
-    return sum;
+    if(num == 0) return 0;
+    return num%10 + digsum(num/10);
 }
 int main(){
     int size;
