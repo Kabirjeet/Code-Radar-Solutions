@@ -31,7 +31,7 @@ int main(){
             if(i==j){
                 continue;
             } else{
-                if((arr[j] - arr[i]) < min){
+                if((arr[j] - arr[i]) <= min){
                     min = arr[j] - arr[i];
                     min1 = arr[i];
                     min2 = arr[j];
