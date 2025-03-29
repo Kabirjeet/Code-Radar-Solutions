@@ -40,8 +40,8 @@ int main(){
     } else{
         printf("NO");
     }
-    return 0;
 }
+return 0;
 }
 
 
