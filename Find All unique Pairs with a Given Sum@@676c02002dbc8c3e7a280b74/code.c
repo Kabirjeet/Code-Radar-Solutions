@@ -1,31 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main() {
     int size, target;
-    scanf("%d",&size);
+    scanf("%d", &size);
 
     int arr[size];
-    for(int i=0; i<size; i++){
-        scanf("%d",&arr[i]);
+    for (int i = 0; i < size; i++) {
+        scanf("%d", &arr[i]);
     }
 
-    scanf("%d",&target);
+    scanf("%d", &target);
 
-    
-    for(int i=0; i<size; i++){
-        int found = 0;
-        for(int j=i+1; j<size; j++){
-            if(i != j){
-                if((arr[i]+arr[j]) == target){
-                    if(!found){
-                        printf("%d %d\n",arr[i], arr[j]);
-                        found = 1;
-                    }
-                }
+    for (int i = 0; i < size; i++) {
+        for (int j = i + 1; j < size; j++) {
+            if (arr[i] + arr[j] == target) {
+                printf("%d %d\n", arr[i], arr[j]);
             }
         }
     }
+
     return 0;
 }
-
-
