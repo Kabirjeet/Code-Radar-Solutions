@@ -34,15 +34,15 @@ int main(){
             ispalin = 0;
             break;
         }
-}
-
-if(ispalin == 1){
-        printf("YES");
-    } else{
-        printf("NO");
     }
 
-return 0;
+    if(ispalin == 1){
+            printf("YES");
+        } else{
+            printf("NO");
+        }
+
+    return 0;
 }
 
 
