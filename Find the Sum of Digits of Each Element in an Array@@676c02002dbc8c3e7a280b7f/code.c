@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib>
+#include<stdlib.h>
 
 int digsum(int num){
     if(num == 0) return 0;
