@@ -31,7 +31,9 @@ int main(){
         if(arr[i] != comp[i]){
             ispalin = 0;
             break;
-    }
+        } else{
+            ispalin = 1;
+        }
 
     if(ispalin == 1){
         printf("YES");
