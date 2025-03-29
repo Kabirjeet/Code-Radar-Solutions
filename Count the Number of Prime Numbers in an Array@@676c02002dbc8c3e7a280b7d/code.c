@@ -17,7 +17,7 @@ int main(){
                 break;
             }
         }
-        if(isprime = 1){
+        if(isprime == 1){
             primecount++;
         }
     }
