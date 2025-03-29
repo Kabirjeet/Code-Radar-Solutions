@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int digsum(int num){
-    int sum = 0
+    int sum = 0;
     while(num != 0){
         sum += num%10;
         num /= 10;
