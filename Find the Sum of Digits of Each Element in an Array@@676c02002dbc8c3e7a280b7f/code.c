@@ -2,7 +2,7 @@
 
 int digsum(int num){
     if(num == 0) return 0;
-    return n%10 + digsum(num/10);
+    return num%10 + digsum(num/10);
 }
 int mian(){
     int size;
