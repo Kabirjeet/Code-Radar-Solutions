@@ -7,7 +7,9 @@ void palindrome(int arr[], int size){
     while(start < end){
         int temp = arr[start];
         arr[start] = arr[end];
-        arr[end] = arr[end];
+        arr[end] = temp;
+        start++;
+        end--;
     }
 }
 int main(){
@@ -29,9 +31,6 @@ int main(){
         if(arr[i] != comp[i]){
             ispalin = 0;
             break;
-        } else{
-            ispalin = 1;
-        }
     }
 
     if(ispalin == 1){
