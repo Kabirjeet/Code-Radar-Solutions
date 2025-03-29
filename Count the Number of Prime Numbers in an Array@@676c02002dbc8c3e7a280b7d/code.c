@@ -11,12 +11,18 @@ int main(){
 
     for(int i=0; i<size; i++){
         int isprime = 1;
-        for(int j=2; j<arr[i]/2; j++){
+
+        if(arr[i] <= 1){
+            isprime = 0;
+        } else{
+            for(int j=2; j<=arr[i]/2; j++){
             if(arr[i]%j == 0){
                 isprime = 0;
                 break;
             }
         }
+        }
+        
         if(isprime == 1){
             primecount++;
         }
