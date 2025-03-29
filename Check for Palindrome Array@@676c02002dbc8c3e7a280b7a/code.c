@@ -28,11 +28,11 @@ int main(){
     palindrome(arr, size);
 
     for(int i=0; i<size; i++){
-        if(arr[i] != comp[i]){
+        if(arr[i] == comp[i]){
+            ispalin = 1;
+        } else{
             ispalin = 0;
             break;
-        } else{
-            ispalin = 1;
         }
 
     if(ispalin == 1){
