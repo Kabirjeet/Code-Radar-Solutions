@@ -1,11 +1,13 @@
 #include<stdio.h>
+#include<string.h>
 int main(){
     char st1[50];
     char st2[50];
     fgets(st1, sizeof(st1), stdin);
     fgets(st2, sizeof(st2), stdin);
-    // scanf("%s", st1);
-    // scanf("%s", st2);
+    
+    st1[strcspn(st1,"\n")] = 0;
+    st2[strcspn(st2,"\n")] = 0;
 
     char st3[100];
     int i=0, j=0;
