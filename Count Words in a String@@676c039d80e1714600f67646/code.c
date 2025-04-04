@@ -2,7 +2,7 @@
 #include<string.h>
 
 int count_words(int string[]){
-    int length = strlen(str);
+    int length = strlen(string);
 
     retrun length;
 }
