@@ -15,8 +15,8 @@ int main(){
     char rep_what;
 
     scanf("%s", st);
-    scanf("%c", &rep_with);
-    scanf("%c", &rep_what);
+    scanf(" %c", &rep_with);
+    scanf(" %c", &rep_what);
 
     rep(st, rep_with, rep_what);
 
