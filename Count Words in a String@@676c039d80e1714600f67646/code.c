@@ -10,7 +10,7 @@ int count_words(int string[]){
         }
     }
 
-    retrun words;
+    return words;
 }
 
 int main(){
