@@ -15,5 +15,7 @@ int main(){
     for(int j=0; st2[j] != '\0'; j++){
         st3[st3index] = st2[j];
     }
+
+    st3[st3index] = '\0';
     printf("%s", st3);
 }
