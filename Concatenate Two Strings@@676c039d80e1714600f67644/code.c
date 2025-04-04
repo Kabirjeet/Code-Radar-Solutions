@@ -13,6 +13,8 @@ int main(){
         i++;
     }
 
+    j=0;
+    
     while(st2[j] != '\0'){
         st3[i] = st2[j];
         i++;
