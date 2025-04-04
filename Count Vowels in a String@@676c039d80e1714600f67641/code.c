@@ -20,5 +20,5 @@ int main(void)
     char string[50];
     scanf("%s", string);
 
-    printf("%i", vowels(string))
+    printf("%i", vowels(string));
 }
