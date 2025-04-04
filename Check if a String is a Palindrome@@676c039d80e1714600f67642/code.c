@@ -29,5 +29,7 @@ void palindrome(char arr[])
 
 int main(void)
 {
-
+    char st[50];
+    scanf("%s", st);
+    palindrome(st);
 }
