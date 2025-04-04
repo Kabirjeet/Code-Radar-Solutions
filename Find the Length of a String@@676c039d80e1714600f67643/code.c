@@ -2,9 +2,9 @@
 #include<string.h>
 
 int len_of_str(char string[]){
-    int len = strlen(string);
+    string[strcspn(string,"\n")] = 0;
 
-    return len;
+    return strlen(string);
 }
 
 int main(){
