@@ -22,7 +22,7 @@ void rev(char str[]){
     printf("%s",str);
 }
 int main(){
-    char str[];
+    char str[50];
     scanf("%s",str);
 
     rev(str);
