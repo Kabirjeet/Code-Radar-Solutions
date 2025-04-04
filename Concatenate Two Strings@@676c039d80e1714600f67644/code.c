@@ -12,7 +12,7 @@ int main(){
         st3index++;
     }
 
-    for(int j=0; st2[i] != '\0'; j++){
+    for(int j=0; st2[j] != '\0'; j++){
         st3[st3index] = st2[j];
     }
     printf("%s", st3);
