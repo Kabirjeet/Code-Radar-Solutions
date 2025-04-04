@@ -6,16 +6,19 @@ int main(){
     scanf("%s", st2);
 
     char st3[100];
-    int st3index = 0;
-    for(int i=0; st1[i] != '\0'; i++){
-        st3[st3index] = st1[i];
-        st3index++;
+    int i=0, j=0;
+    
+    while(st1[i] != '\0'){
+        st3[j] = st1[i];
+        i++;
     }
 
-    for(int j=0; st2[j] != '\0'; j++){
-        st3[st3index] = st2[j];
+    while(st2[j] != '\0'){
+        st3[i] = st2[j];
+        i++;
+        j++;
     }
 
-    st3[st3index] = '\0';
+    st3[i] = '\0';
     printf("%s", st3);
 }
