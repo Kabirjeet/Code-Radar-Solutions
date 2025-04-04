@@ -11,8 +11,8 @@ void rep(char st[], char rep_with, char rep_what){
 }
 int main(){
     char st[100];
-    char rep_with[1];
-    char rep_what[1];
+    char rep_with;
+    char rep_what;
 
     scanf("%s", st);
     scanf("%c", rep_with);
