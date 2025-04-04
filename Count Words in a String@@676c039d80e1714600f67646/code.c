@@ -2,9 +2,15 @@
 #include<string.h>
 
 int count_words(int string[]){
-    int length = strlen(string);
+    int words = 0;
+    
+    for(int i=0; string[i] != '\0'; i++){
+        if((string[i] == ' ') && string[i+1] != ' '){
+            words++;
+        }
+    }
 
-    retrun length;
+    retrun words;
 }
 
 int main(){
