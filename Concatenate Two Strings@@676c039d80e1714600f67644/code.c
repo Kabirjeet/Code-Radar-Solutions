@@ -2,8 +2,10 @@
 int main(){
     char st1[50];
     char st2[50];
-    scanf("%s", st1);
-    scanf("%s", st2);
+    fgets(st1, sizeof(st1), stdin);
+    fgets(st2, sizeof(st2), stdin);
+    // scanf("%s", st1);
+    // scanf("%s", st2);
 
     char st3[100];
     int i=0, j=0;
