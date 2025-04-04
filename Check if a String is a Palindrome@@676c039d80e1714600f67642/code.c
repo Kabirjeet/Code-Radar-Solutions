@@ -21,11 +21,11 @@ void palindrome(char arr[])
     printf("New Arr\n");
     printf("%s", new_arr);
 
-    if(strcmp(arr, new_arr) == 0){
-        printf("Yes");
-    } else{
-        printf("No");
-    }
+    // if(strcmp(arr, new_arr) == 0){
+    //     printf("Yes");
+    // } else{
+    //     printf("No");
+    // }
 }
 
 int main(void)
