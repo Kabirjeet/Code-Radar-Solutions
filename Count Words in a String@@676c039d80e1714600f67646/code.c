@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-int count_words(int string[]){
+int count_words(char string[]){
     int words = 0;
     
     for(int i=0; string[i] != '\0'; i++){
