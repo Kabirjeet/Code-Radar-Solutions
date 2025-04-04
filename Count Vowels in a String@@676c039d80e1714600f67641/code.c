@@ -6,7 +6,7 @@ int vowels(char arr[])
     int count= 0;
     for (int i= 0; arr[i]!= '\0'; i++)
     {
-        if (strchr("AEIOUaeiou", arr[i])== 0)
+        if (strchr("AEIOUaeiou", arr[i]))
         {
             count++;
         }
