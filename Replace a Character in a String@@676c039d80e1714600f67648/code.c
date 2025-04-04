@@ -8,6 +8,11 @@ void rep(char st[], char rep_with, char rep_what){
         }
         i++;
     }
+
+    i=0;
+    while(st[i] != '\0'){
+        printf("%c", st[i]);
+    }
 }
 int main(){
     char st[100];
