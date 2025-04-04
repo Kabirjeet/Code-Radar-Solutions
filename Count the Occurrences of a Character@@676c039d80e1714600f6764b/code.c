@@ -3,7 +3,7 @@
 int count_letter(char st[], char letter){
     int count = 0, i=0;
 
-    while(st[i] != '\n'){
+    while(st[i] != '\0'){
         if(st[i] == letter){
             count++;
         }
