@@ -18,9 +18,9 @@ void palindrome(char arr[])
     }
 
     if(strcmp(arr, new_arr) == 0){
-        printf("%s", Yes);
+        printf("Yes");
     } else{
-        printf("%s", Yes);
+        printf("No");
     }
 }
 
