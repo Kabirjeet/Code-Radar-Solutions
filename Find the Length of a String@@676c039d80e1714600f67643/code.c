@@ -9,7 +9,7 @@ int len_of_str(char string[]){
         len++;
     }
 
-    return len;
+    return len+1;
 }
 
 int main(){
