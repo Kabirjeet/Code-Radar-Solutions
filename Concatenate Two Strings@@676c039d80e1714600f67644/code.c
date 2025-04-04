@@ -9,12 +9,12 @@ int main(){
     int i=0, j=0;
     
     while(st1[i] != '\0'){
-        st3[j] = st1[i];
+        st3[i] = st1[i];
         i++;
     }
 
     j=0;
-    
+
     while(st2[j] != '\0'){
         st3[i] = st2[j];
         i++;
