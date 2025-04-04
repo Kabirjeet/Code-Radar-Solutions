@@ -17,6 +17,8 @@ void palindrome(char arr[])
         new_arr[new_arr_index] = arr[i];
     }
 
+    printf("Array Length\n");
+    printf("%d",arr_len);
     printf("New Arr\n");
     printf("%s", new_arr);
 
