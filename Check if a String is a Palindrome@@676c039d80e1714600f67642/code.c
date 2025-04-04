@@ -14,8 +14,9 @@ void palindrome(char arr[])
 
     char new_arr[arr_len];
 
-    for(int i = arr_len-1; i>0; i--){
+    for(int i = arr_len-1; i>=0; i--){
         new_arr[new_arr_index] = arr[i];
+        new_arr_index++;
     }
 
     printf("New Arr\n");
